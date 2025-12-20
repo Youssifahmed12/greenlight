@@ -13,6 +13,7 @@ type Filters struct {
 	Sort         string
 	SortSafelist []string
 }
+
 type Metadata struct {
 	CurrentPage  int `json:"current_page,omitzero"`
 	PageSize     int `json:"page_size,omitzero"`
